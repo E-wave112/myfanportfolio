@@ -18,7 +18,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/iservecloud/image/upload/v1657739015/new%20portfolio/fincra_vv6oyf.jpg",
     imageAlt: "fincra",
     projectUrl: "https://www.npmjs.com/package/fincra-node-sdk",
-    linkText: "Link to the Project",
+    linkText: "View Project",
   },
   {
     id: "thepeer",
@@ -29,7 +29,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/iservecloud/image/upload/v1657739073/thepeer_jb1i4j.png",
     imageAlt: "thepeer",
     projectUrl: "https://pypi.org/project/pythepeer/",
-    linkText: "Link to the Project",
+    linkText: "View Project",
   },
   {
     id: "fuse-wallet",
@@ -40,7 +40,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/iservecloud/image/upload/v1643400656/new%20portfolio/download_tlgqdl.jpg",
     imageAlt: "ecommerce site",
     projectUrl: "https://documenter.getpostman.com/view/11690328/UzBiNnzU",
-    linkText: "Link To App",
+    linkText: "View Project",
   },
   {
     id: "bitfast",
@@ -50,7 +50,7 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/iservecloud/image/upload/v1622574264/index_liinkh.jpg",
     imageAlt: "bitfast",
     projectUrl: "https://bitfast.onrender.com/docs",
-    linkText: "Link To App",
+    linkText: "View Project",
   },
   {
     id: "gocrypto",
@@ -61,6 +61,6 @@ export const projects: Project[] = [
       "https://res.cloudinary.com/iservecloud/image/upload/v1699487702/cryptocurrency_bk4m8a.png",
     imageAlt: "gocrypto",
     projectUrl: "https://pkg.go.dev/github.com/E-wave112/gocrypto",
-    linkText: "Link To Cli",
+    linkText: "View Project",
   },
 ];

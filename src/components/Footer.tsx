@@ -1,19 +1,8 @@
 import Link from "next/link";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaGithub,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const socialLinks = [
-  {
-    href: "https://facebook.com/iyayiosagie150/",
-    icon: FaFacebookF,
-    label: "Facebook",
-  },
   {
     href: "https://twitter.com/Ewave07",
     icon: FaTwitter,
@@ -34,11 +23,6 @@ const socialLinks = [
     icon: FaGithub,
     label: "GitHub",
   },
-  {
-    href: "https://wa.me/2347081927814",
-    icon: FaWhatsapp,
-    label: "WhatsApp",
-  },
 ];
 
 export default function Footer() {
@@ -49,12 +33,12 @@ export default function Footer() {
       <hr className="border-slate-600 mb-6 mx-8" />
 
       <p className="text-gray-300 mb-6 px-4">
-        Hit me up for any rendezvous, enquiries or engagements via any of my
-        contact details below:
+        Let&apos;s connect! Reach out for collaborations, questions, or just to
+        say hi.
       </p>
 
       {/* Social Icons */}
-      <div className="flex justify-center gap-6 mb-8">
+      <div className="flex justify-center gap-8 mb-8">
         {socialLinks.map((social) => (
           <Link
             key={social.label}
@@ -62,9 +46,9 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={social.label}
-            className="text-gray-300 hover:text-white transition-colors duration-300"
+            className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300"
           >
-            <social.icon className="w-6 h-6" />
+            <social.icon className="w-7 h-7" />
           </Link>
         ))}
       </div>

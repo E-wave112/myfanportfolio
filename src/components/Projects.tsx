@@ -6,7 +6,7 @@ export default function Projects() {
     <section className="pt-12">
       {/* Section Heading */}
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-900">Completed Projects</h2>
+        <h2 className="text-4xl font-bold text-gray-900">Projects</h2>
       </div>
 
       {/* Project Cards */}
