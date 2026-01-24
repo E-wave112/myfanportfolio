@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Legacy files (to be removed after migration)
+    "js/**",
+    "css/**",
   ]),
 ]);
 
