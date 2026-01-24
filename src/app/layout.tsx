@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Osagie Iyayi Emmanuel | Portfolio",
+  title: "E-wave's Portfolio",
   description: "Software and Platform Engineer Portfolio",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
