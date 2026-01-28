@@ -45,7 +45,8 @@ export const projects: Project[] = [
   {
     id: "bitfast",
     title: "Bitfast",
-    description: "A bitcoin price predictor built with python, fastapi and faunadb",
+    description:
+      "A bitcoin price predictor built with python, fastapi and faunadb",
     imageUrl:
       "https://res.cloudinary.com/iservecloud/image/upload/v1622574264/index_liinkh.jpg",
     imageAlt: "bitfast",
