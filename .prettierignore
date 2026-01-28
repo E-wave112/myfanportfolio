@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+
+# Legacy files
+js/
+css/
+legacy/
+
+# Generated files
+*.min.js
+*.min.css
+package-lock.json

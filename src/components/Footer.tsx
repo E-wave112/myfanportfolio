@@ -29,16 +29,16 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-slate-800 text-white text-center py-8 mt-8">
-      <hr className="border-slate-600 mb-6 mx-8" />
+    <footer className="mt-8 bg-slate-800 py-8 text-center text-white">
+      <hr className="mx-8 mb-6 border-slate-600" />
 
-      <p className="text-gray-300 mb-6 px-4">
+      <p className="mb-6 px-4 text-gray-300">
         Let&apos;s connect! Reach out for collaborations, questions, or just to
         say hi.
       </p>
 
       {/* Social Icons */}
-      <div className="flex justify-center gap-8 mb-8">
+      <div className="mb-8 flex justify-center gap-8">
         {socialLinks.map((social) => (
           <Link
             key={social.label}
@@ -46,20 +46,20 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={social.label}
-            className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300"
+            className="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-white"
           >
-            <social.icon className="w-7 h-7" />
+            <social.icon className="h-7 w-7" />
           </Link>
         ))}
       </div>
 
       {/* Copyright */}
-      <div className="border-t border-slate-600 pt-4 mx-8">
+      <div className="mx-8 border-t border-slate-600 pt-4">
         <p className="text-gray-400">
           &copy; {currentYear} Copyright{" "}
           <Link
             href="#top"
-            className="text-gray-300 hover:text-white transition-colors"
+            className="text-gray-300 transition-colors hover:text-white"
           >
             Back to Top
           </Link>
